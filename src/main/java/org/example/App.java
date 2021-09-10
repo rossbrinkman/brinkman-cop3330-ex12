@@ -25,7 +25,7 @@ public class App
         years = scanner.nextFloat();
 
         interestRate /= 100;
-        finalValue = principal * (1 + interestRate*years);
+        finalValue = principal * (1.0f + interestRate*years);
         interestRate *= 100;
 
         System.out.println( "After " + (int)years + " years at " + interestRate +
